@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Collab</string>
+    <string name="app_slogan">Juntos por um Mundo Melhor</string>
+    //Tela Login
+    <string name="login_btn_entre">Entre</string>
+    <string name="login_link_cadastre">ou cadastre-se</string>
+    <string name="login_btn_cadastre">Cadastrar</string>
+    <string name="login_btn_google">Entre com o Google</string>
+    <string name="login_criesuaconta">ou crie sua conta</string>
+    <string name="cadastro_hint_nomecompleto">Nome Completo</string>
+    <string name="cadastro_hint_usuario">Nome de Usuário</string>
+    <string name="cadastro_hint_email">Email</string>
+    <string name="cadastro_hint_celular">Número de Celular</string>
+    <string name="cadastro_hint_senha">Senha</string>
+    <string name="txt_lgpd">Ao se cadastrar, você concorda com nossos Termos, Política de Privacidade e Política de Cookies.</string>
+
+    //Tela Home
+    <string name="home_seustatus">Seu Status</string>
+    <string name="user_nomecompleto">Rafaela Albuquerque</string>
+    <string name="nome_usuario1">Natura</string>
+    <string name="nome_usuario2">Henrique Silva</string>
+    <string name="nome_usuario3">Bradesco</string>
+    <string name="nome_usuario4">Mariana Oliveira</string>
+    <string name="nome_usuario5">Governo do Brasil</string>
+    <string name="nome_usuario6">Itaú</string>
+    <string name="nome_usuario7">Adriano Queiroz</string>
+    <string name="nome_usuario8">Roberta Nascimento</string>
+    <string name="nome_usuario9">Mateus F Lima</string>
+    <string name="nome_usuario10">Rafael Silva</string>
+    <string name="nome_usuario11">Natália Rodrigues</string>
+    <string name="user_username">"@rafa_alb"</string>
+    <string name="username_usuario5">"@governodobrasil"</string>
+    <string name="user_post">Hoje tivemos mais uma ação para arrecadar alimentos na Avenida Paulista! Quer ser voluntário nas próximas ações?</string>
+    <string name="post_usuario5">O Ministério da Economia, em parceria com a Escola Nacional de Administração Pública – Enap e o Instituto Serzedello Corrêa – TCU, oferecem cursos à distância sobre a Plataforma +Brasil. Os cursos são gratuitos e têm oferta periódica.  Saiba mais no link > bit.ly.cfrg5</string>
+    <string name="post_usuario6">{post6}</string>
+    <string name="btn_compartilhar">"compartilhar"</string>
+    //Telas
+    <string name="title_objetivos">Os 17 Obejtivos</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_info">Info</string>
+    <string name="title_mapas">Mapas</string>
+    <string name="title_forum">Fórum</string>
+    //Texts
+    <string name="txt_objetivos">Saiba mais detalhes sobre cada um dos Objetivos para o Desenvolvimento Sustentável</string>
+    //Perfil
+    <string name="link_editarfoto">Editar Foto</string>
+    <string name="user_bio">Analista de Sistemas e Voluntária</string>
+    <string name="user_local">São Paulo - SP</string>
+    //Info
+    <string name="btn_objetivos">Os 17 Objetivos para o
+Desenvolvimento Sustentável</string>
+    <string name="btn_pontos_doacaoalimentos">Pontos de Doação de Alimentos</string>
+    <string name="btn_pontos_coletaseletiva">Pontos de Coleta Seletiva</string>
+    <string name="btn_faq">Perguntas Frequentes</string>
+    //Mapas
+    <string name="nome_ponto1">ONG Banco de Alimentos</string>
+    <string name="local_ponto1" tools:ignore="TypographyDashes">Rua Atibaia, 218 - Perdizes, São Paulo - SP, 01235-010</string>
+    <string name="nome_ponto2">Cruz Vermelha São Paulo</string>
+    <string name="local_ponto2" tools:ignore="TypographyDashes">Av. Moreira Guimarães, 699 - Indianópolis, São Paulo - SP, 04074-031</string>
+    <string name="nome_ponto3">Banco de Alimentos de Osasco</string>
+    <string name="local_ponto3" tools:ignore="TypographyDashes">Av. Gen. Pedro Pinho, 1340 - Pestana, Osasco - SP, 06122-160</string>
+    <string name="nome_ponto4">Cooperativa de Trabalho e da Coleta Seletiva dos Catadores da Baixada do Glicério</string>
+    <string name="local_ponto4" tools:ignore="TypographyDashes">R. Teixeira Leite, 140 - Liberdade, São Paulo - SP, 01514-010</string>
+    <string name="nome_ponto5">Recifavela - Cooperativa de Catadores</string>
+    <string name="local_ponto5" tools:ignore="TypographyDashes">R. Ilha Serigipe, 108 - Vila Prudente, São Paulo - SP, 03126-070</string>
+    //Forum
+    <string name="subtitle_forum">Tópicos em Destaque</string>
+    <string name="title_topic1">Como ajudar na erradicação da fome</string>
+    <string name="title_topic2">Coleta Seletiva nas Cooperativas</string>
+    <string name="title_topic3">Redução na emissão de gases de Efeito Estufa</string>
+    <string name="title_topic4">Saneamento Básico nas Comunidades</string>
+    <string name="title_topic5">Redução do uso de água nas indústrias</string>
+    <string name="text_autor">criado por:</string>
+    <string name="number_respostas_topic1">258 Respostas</string>
+    <string name="number_respostas_topic2">94 Respostas</string>
+    <string name="number_respostas_topic3">59 Respostas</string>
+    <string name="number_respostas_topic4">157 Respostas</string>
+    <string name="number_respostas_topic5">78 Respostas</string>
+    <string name="btn_criartopico" tools:ignore="DuplicateDefinition">Criar um tópico</string>
+
+</resources>

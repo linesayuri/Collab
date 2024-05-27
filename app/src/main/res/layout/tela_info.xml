@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/logo_horizontal_verde"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/secondary"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="33dp"
+        tools:text="@string/title_info" />
+
+    <Button
+        android:id="@+id/btn_meusdados"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/primary"
+        android:text="@string/btn_objetivos"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <Button
+        android:id="@+id/btn_meusdados"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/primary"
+        android:text="@string/btn_pontos_doacaoalimentos"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btn_meusdados"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/primary"
+        android:text="@string/btn_pontos_coletaseletiva"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/btn_meusdados"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/primary"
+        android:text="@string/btn_faq"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon_chat"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-8dp">
+
+    <Button
+        android:id="@+id/btn_logingoogle"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@color/lightgray"
+        android:drawableStart="@drawable/icon_google"
+        android:drawablePadding="0dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="@string/login_btn_google"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/darkgray"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_criesuaconta"
+        android:textColor="@color/secondary"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cadastro_hint_nomecompleto"
+        android:ems="10"
+        android:hint="@string/cadastro_hint_nomecompleto"
+        android:inputType="text|textPersonName"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cadastro_hint_usuario"
+        android:ems="10"
+        android:hint="@string/cadastro_hint_usuario"
+        android:inputType="text|textPersonName"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cadastro_hint_email"
+        android:ems="10"
+        android:hint="@string/cadastro_hint_email"
+        android:inputType="text|textEmailAddress"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cadastro_hint_celular"
+        android:ems="10"
+        android:hint="@string/cadastro_hint_celular"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cadastro_hint_senha"
+        android:ems="10"
+        android:hint="@string/cadastro_hint_senha"
+        android:inputType="text|textPassword"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@string/cadastro_hint_senha"
+        android:ems="10"
+        android:hint="@string/cadastro_hint_senha"
+        android:inputType="text|textPassword"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/secondary"
+        android:text="@string/login_btn_cadastre"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="409dp"
+        android:layout_height="40dp"
+        android:background="@color/primary"
+        android:drawableStart="@drawable/icon_google"
+        app:itemBackground="@drawable/logo_horizontal_branco"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
