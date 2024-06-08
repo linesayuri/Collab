@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,13 +19,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="@color/secondary"
+        android:textSize="16sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="317dp"
         tools:layout_editor_absoluteY="33dp"
         tools:text="@string/title_info" />
 
     <Button
-        android:id="@+id/btn_meusdados"
+        android:id="@+id/btn_objetivos"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -35,7 +39,7 @@
         tools:layout_editor_absoluteY="99dp" />
 
     <Button
-        android:id="@+id/btn_meusdados"
+        android:id="@+id/btn_doacao_alimentos"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -46,7 +50,7 @@
         tools:layout_editor_absoluteY="188dp" />
 
     <Button
-        android:id="@+id/btn_meusdados"
+        android:id="@+id/btn_coleta_seletiva"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -57,7 +61,7 @@
         tools:layout_editor_absoluteY="285dp" />
 
     <Button
-        android:id="@+id/btn_meusdados"
+        android:id="@+id/btn_perguntas_frequentes"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
@@ -71,6 +75,8 @@
         android:id="@+id/imageButton"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:backgroundTint="@color/transparent"
+        android:scaleType="centerInside"
         app:srcCompat="@drawable/icon_chat"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="496dp" />

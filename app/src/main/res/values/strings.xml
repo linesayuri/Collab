@@ -12,6 +12,7 @@
     <string name="cadastro_hint_email">Email</string>
     <string name="cadastro_hint_celular">Número de Celular</string>
     <string name="cadastro_hint_senha">Senha</string>
+    <string name="cadastro_hint_confirsenha">Confirme a Senha</string>
     <string name="txt_lgpd">Ao se cadastrar, você concorda com nossos Termos, Política de Privacidade e Política de Cookies.</string>
 
     //Tela Home
@@ -35,7 +36,7 @@
     <string name="post_usuario6">{post6}</string>
     <string name="btn_compartilhar">"compartilhar"</string>
     //Telas
-    <string name="title_objetivos">Os 17 Obejtivos</string>
+    <string name="title_objetivos">Os 17 Objetivos</string>
     <string name="title_perfil">Perfil</string>
     <string name="title_info">Info</string>
     <string name="title_mapas">Mapas</string>

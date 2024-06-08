@@ -8,10 +8,13 @@
     tools:layout_editor_absoluteY="-8dp">
 
     <Button
-        android:id="@+id/btn_logingoogle"
+        android:id="@+id/btn_login_google"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
         android:background="@color/lightgray"
         android:drawableStart="@drawable/icon_google"
         android:drawablePadding="0dp"
@@ -22,103 +25,119 @@
         android:textAllCaps="false"
         android:textColor="@color/darkgray"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="87dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="144dp"
         android:text="@string/login_criesuaconta"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="147dp" />
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_google" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/form_nome"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
         android:autofillHints="@string/cadastro_hint_nomecompleto"
         android:ems="10"
         android:hint="@string/cadastro_hint_nomecompleto"
         android:inputType="text|textPersonName"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="185dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/form_username"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15dp"
         android:autofillHints="@string/cadastro_hint_usuario"
         android:ems="10"
         android:hint="@string/cadastro_hint_usuario"
         android:inputType="text|textPersonName"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="255dp" />
+        app:layout_constraintEnd_toEndOf="@+id/form_nome"
+        app:layout_constraintStart_toStartOf="@+id/form_nome"
+        app:layout_constraintTop_toBottomOf="@+id/form_nome" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/form_email"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15dp"
         android:autofillHints="@string/cadastro_hint_email"
         android:ems="10"
         android:hint="@string/cadastro_hint_email"
         android:inputType="text|textEmailAddress"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="329dp" />
+        app:layout_constraintEnd_toEndOf="@+id/form_username"
+        app:layout_constraintStart_toStartOf="@+id/form_username"
+        app:layout_constraintTop_toBottomOf="@+id/form_username" />
 
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/form_celular"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15dp"
         android:autofillHints="@string/cadastro_hint_celular"
         android:ems="10"
         android:hint="@string/cadastro_hint_celular"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="399dp" />
+        app:layout_constraintEnd_toEndOf="@+id/form_email"
+        app:layout_constraintStart_toStartOf="@+id/form_email"
+        app:layout_constraintTop_toBottomOf="@+id/form_email" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/form_senha"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15dp"
         android:autofillHints="@string/cadastro_hint_senha"
         android:ems="10"
         android:hint="@string/cadastro_hint_senha"
         android:inputType="text|textPassword"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="468dp" />
+        app:layout_constraintEnd_toEndOf="@+id/form_celular"
+        app:layout_constraintStart_toStartOf="@+id/form_celular"
+        app:layout_constraintTop_toBottomOf="@+id/form_celular" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/form_confir_senha"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="15dp"
         android:autofillHints="@string/cadastro_hint_senha"
         android:ems="10"
-        android:hint="@string/cadastro_hint_senha"
+        android:hint="@string/cadastro_hint_confirsenha"
         android:inputType="text|textPassword"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintEnd_toEndOf="@+id/form_senha"
+        app:layout_constraintStart_toStartOf="@+id/form_senha"
+        app:layout_constraintTop_toBottomOf="@+id/form_senha" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_cadastrar"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="130dp"
         android:background="@color/secondary"
         android:text="@string/login_btn_cadastre"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="616dp" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="409dp"
-        android:layout_height="40dp"
-        android:background="@color/primary"
-        android:drawableStart="@drawable/icon_google"
-        app:itemBackground="@drawable/logo_horizontal_branco"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/form_confir_senha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
