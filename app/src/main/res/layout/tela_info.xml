@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,7 +17,6 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="@color/secondary"
         android:textSize="16sp"
@@ -72,7 +70,7 @@
         tools:layout_editor_absoluteY="383dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btn_chatbot"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:backgroundTint="@color/transparent"
