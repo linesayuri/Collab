@@ -12,16 +12,8 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:srcCompat="@drawable/avatar_mariana"
-        tools:layout_editor_absoluteX="344dp"
-        tools:layout_editor_absoluteY="65dp" />
-
-    <ImageView
-        android:id="@+id/avatar_user_3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        app:srcCompat="@drawable/avatar_bradesco"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="74dp" />
 
     <TextView
         android:id="@+id/username_user3"
@@ -30,8 +22,8 @@
         android:text="@string/nome_usuario3"
         android:textAlignment="center"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <TextView
         android:id="@+id/username_user2"
@@ -40,8 +32,8 @@
         android:text="@string/nome_usuario2"
         android:textAlignment="center"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <TextView
         android:id="@+id/username_user4"
@@ -50,16 +42,16 @@
         android:text="@string/nome_usuario4"
         android:textAlignment="center"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <ImageView
         android:id="@+id/avatar_user_2"
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:srcCompat="@drawable/avatar_henriquesilva"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="74dp" />
 
     <TextView
         android:id="@+id/username_user1"
@@ -68,16 +60,16 @@
         android:text="@string/nome_usuario1"
         android:textAlignment="center"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <ImageView
         android:id="@+id/avatar_main_user"
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:srcCompat="@drawable/user_avatar"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="74dp" />
 
     <TextView
         android:id="@+id/text_seu_status"
@@ -86,24 +78,24 @@
         android:text="@string/home_seustatus"
         android:textAlignment="center"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="125dp" />
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="134dp" />
 
     <ImageView
         android:id="@+id/avatar_user_1"
         android:layout_width="60dp"
         android:layout_height="60dp"
         app:srcCompat="@drawable/avatar_natura"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="74dp" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/user_avatar"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="176dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -111,64 +103,64 @@
         android:layout_height="wrap_content"
         android:text="@string/user_nomecompleto"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="176dp" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/user_username"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="194dp" />
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="359dp"
         android:layout_height="57dp"
         android:text="@string/user_post"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="238dp" />
 
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="350dp"
         android:layout_height="212dp"
         app:srcCompat="@drawable/post_user1"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="286dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="295dp" />
 
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:srcCompat="@drawable/icon_like"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <ImageView
         android:id="@+id/imageView24"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:srcCompat="@drawable/icon_share"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_compartilhar"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="511dp" />
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="520dp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -176,80 +168,56 @@
         android:layout_height="wrap_content"
         android:text="@string/nome_usuario5"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="558dp" />
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="567dp" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@drawable/gov_avatar"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="558dp" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="359dp"
-        android:layout_height="57dp"
-        android:text="@string/post_usuario5"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="620dp" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="350dp"
-        android:layout_height="212dp"
-        app:srcCompat="@drawable/post_user1"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="677dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="567dp" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/username_usuario5"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="585dp" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="594dp" />
 
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:srcCompat="@drawable/icon_like"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <ImageView
         android:id="@+id/imageView24"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="20dp"
         android:layout_height="20dp"
         app:srcCompat="@drawable/icon_share"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="519dp" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_compartilhar"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="511dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="100sp"
-        android:layout_height="30sp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="520dp" />
 
     <Button
         android:id="@+id/btn_compartilhar"
@@ -260,8 +228,91 @@
         android:paddingLeft="20sp"
         android:text="@string/btn_compartilhar"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <ImageView
+        android:id="@+id/avatar_user_3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/avatar_bradesco"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        app:srcCompat="@drawable/logo_horizontal_verde"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <!--    inicio menu-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:background="@color/lightgray"
+        app:backgroundTint="@color/mediumgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="25sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_inicio" />
+
+        <ImageButton
+            android:id="@+id/btn_forum"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_forum" />
+
+        <ImageButton
+            android:id="@+id/btn_info"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="250sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_info" />
+
+        <ImageButton
+            android:id="@+id/menu_menu"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="335sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_menu" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:scaleType="centerInside"
+        android:translationZ="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+        app:srcCompat="@drawable/btn_add"
+        tools:layout_editor_absoluteX="165dp" />
+
+    <!--    fim bottom menu-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

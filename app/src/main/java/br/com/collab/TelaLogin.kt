@@ -11,7 +11,7 @@ class TelaLogin : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tela_login)
 
-        val btnLogin: Button = findViewById<Button>(R.id.btn_login)
+        val btnLogin: Button = findViewById(R.id.btn_login)
 
         btnLogin.setOnClickListener {
             val i = Intent(this, MainActivity::class.java)
@@ -19,7 +19,7 @@ class TelaLogin : AppCompatActivity() {
         }
 
 
-        val btnCadastro: Button = findViewById<Button>(R.id.btn_cadastro)
+        val btnCadastro: Button = findViewById(R.id.btn_cadastro)
 
         btnCadastro.setOnClickListener {
             val i = Intent(this, TelaCadastro::class.java)

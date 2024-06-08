@@ -9,108 +9,208 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="30dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_horizontal_verde" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:textAlignment="textEnd"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="328dp"
-        tools:layout_editor_absoluteY="30dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/title_mapas" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="106dp"
         android:text="@string/btn_pontos_doacaoalimentos"
         android:textColor="@color/darkaqua"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="89dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/pin_local_3"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/icon_local"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="437dp" />
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/pin_local_2"
+        app:layout_constraintTop_toBottomOf="@+id/pin_local_2"
+        app:srcCompat="@drawable/icon_local" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nome_ponto1"
-        android:textColor="@color/secondary"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="437dp" />
-
-    <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/local_doacao_1"
         android:layout_width="292dp"
         android:layout_height="39dp"
         android:text="@string/local_ponto1"
         android:textColor="@color/darkgray"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="456dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="278dp"
-        android:layout_height="34dp"
-        android:text="@string/local_ponto2"
-        android:textColor="@color/darkgray"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintStart_toStartOf="@+id/local_docao_1"
+        app:layout_constraintTop_toBottomOf="@+id/local_docao_1" />
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/imageView3"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="56dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/mapa" />
+
+    <ImageView
+        android:id="@+id/pin_local_2"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/icon_local"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="520dp" />
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/pin_local_1"
+        app:layout_constraintTop_toBottomOf="@+id/pin_local_1"
+        app:srcCompat="@drawable/icon_local" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/local_docao_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nome_ponto2"
-        android:textColor="@color/secondary"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="520dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
         android:text="@string/nome_ponto3"
         android:textColor="@color/secondary"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="605dp" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:srcCompat="@drawable/icon_local"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="605dp" />
+        app:layout_constraintStart_toEndOf="@+id/pin_local_3"
+        app:layout_constraintTop_toTopOf="@+id/pin_local_3" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/local_docao_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/nome_ponto2"
+        android:textColor="@color/secondary"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pin_local_2"
+        app:layout_constraintTop_toTopOf="@+id/pin_local_2" />
+
+    <TextView
+        android:id="@+id/local_doacao_3"
         android:layout_width="271dp"
         android:layout_height="35dp"
         android:text="@string/local_ponto3"
         android:textColor="@color/darkgray"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="624dp" />
+        app:layout_constraintStart_toStartOf="@+id/local_docao_3"
+        app:layout_constraintTop_toBottomOf="@+id/local_docao_3" />
+
+    <TextView
+        android:id="@+id/local_docao_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/nome_ponto1"
+        android:textColor="@color/secondary"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pin_local_1"
+        app:layout_constraintTop_toTopOf="@+id/pin_local_1" />
+
+    <TextView
+        android:id="@+id/local_doacao_2"
+        android:layout_width="278dp"
+        android:layout_height="34dp"
+        android:text="@string/local_ponto2"
+        android:textColor="@color/darkgray"
+        app:layout_constraintStart_toStartOf="@+id/local_docao_2"
+        app:layout_constraintTop_toBottomOf="@+id/local_docao_2" />
+
+    <ImageView
+        android:id="@+id/pin_local_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/icon_local" />
+
+
+    <!--    inicio menu-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:background="@color/lightgray"
+        app:backgroundTint="@color/mediumgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="25sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_inicio" />
+
+        <ImageButton
+            android:id="@+id/btn_forum"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_forum" />
+
+        <ImageButton
+            android:id="@+id/btn_info"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="250sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_info" />
+
+        <ImageButton
+            android:id="@+id/menu_menu"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="335sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_menu" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:scaleType="centerInside"
+        android:translationZ="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="@+id/bottomNavigationView"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavigationView"
+        app:srcCompat="@drawable/btn_add" />
+
+    <!--    fim bottom menu-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

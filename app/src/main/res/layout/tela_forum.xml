@@ -11,259 +11,304 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="335dp"
-        tools:layout_editor_absoluteY="35dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/title_forum" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="35dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_horizontal_verde" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="137dp"
         android:text="@string/subtitle_forum"
+        android:textAlignment="center"
         android:textColor="@color/darkaqua"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="89dp" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/forum_title_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="23dp"
         android:text="@string/title_topic1"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="123dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/forum_user_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/nome_usuario7"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="142dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/text_forum_1"
+        app:layout_constraintStart_toEndOf="@+id/text_forum_1" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/forum_resp_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic1"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="169dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/img_comment_1"
+        app:layout_constraintStart_toEndOf="@+id/img_comment_1" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/img_comment_1"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="169dp" />
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="@+id/text_forum_1"
+        app:layout_constraintTop_toBottomOf="@+id/text_forum_1"
+        app:srcCompat="@drawable/icon_comentar" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/text_forum_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_autor"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="142dp" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="35dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_1"
+        app:layout_constraintTop_toBottomOf="@+id/forum_title_1" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/forum_title_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/title_topic2"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="217dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_1"
+        app:layout_constraintTop_toBottomOf="@+id/forum_resp_1" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/forum_user_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/nome_usuario8"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="236dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/text_forum_2"
+        app:layout_constraintStart_toEndOf="@+id/text_forum_2" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/forum_resp_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic2"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/img_comment_2"
+        app:layout_constraintStart_toEndOf="@+id/img_comment_2" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/img_comment_2"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="263dp" />
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="@+id/text_forum_2"
+        app:layout_constraintTop_toBottomOf="@+id/text_forum_2"
+        app:srcCompat="@drawable/icon_comentar" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/text_forum_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_autor"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="35dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_2"
+        app:layout_constraintTop_toBottomOf="@+id/forum_title_2" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/forum_title_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/title_topic3"
         android:textColor="@color/darkaqua"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="314dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_2"
+        app:layout_constraintTop_toBottomOf="@+id/forum_resp_2" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/text_forum_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
         android:text="@string/text_autor"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_3"
+        app:layout_constraintTop_toBottomOf="@+id/forum_title_3" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/forum_resp_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic3"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/img_comment_3"
+        app:layout_constraintStart_toEndOf="@+id/img_comment_3" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/img_comment_3"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="360dp" />
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="@+id/text_forum_3"
+        app:layout_constraintTop_toBottomOf="@+id/text_forum_3"
+        app:srcCompat="@drawable/icon_comentar" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/forum_user_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/nome_usuario9"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/text_forum_3"
+        app:layout_constraintStart_toEndOf="@+id/text_forum_3" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/forum_title_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/title_topic4"
         android:textColor="@color/darkaqua"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="412dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_3"
+        app:layout_constraintTop_toBottomOf="@+id/forum_resp_3" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/forum_user_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:text="@string/nome_usuario10"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="431dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/text_forum_4"
+        app:layout_constraintStart_toEndOf="@+id/text_forum_4" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/forum_resp_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic4"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="458dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/img_comment_4"
+        app:layout_constraintStart_toEndOf="@+id/img_comment_4" />
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/img_comment_4"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="458dp" />
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toStartOf="@+id/text_forum_4"
+        app:layout_constraintTop_toBottomOf="@+id/text_forum_4"
+        app:srcCompat="@drawable/icon_comentar" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/text_forum_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_autor"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="431dp" />
+        app:layout_constraintStart_toStartOf="@+id/forum_title_4"
+        app:layout_constraintTop_toBottomOf="@+id/forum_title_4" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/title_topic5"
-        android:textColor="@color/darkaqua"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="503dp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_autor"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="522dp" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="549dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/number_respostas_topic5"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="549dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nome_usuario11"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="522dp" />
+    <!--    inicio menu-->
 
     <Button
         android:id="@+id/btn_cadastrar"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="131dp"
         android:background="@color/secondary"
         android:text="@string/btn_criartopico"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="594dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forum_resp_4" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:background="@color/lightgray"
+        app:backgroundTint="@color/mediumgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="25sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_inicio" />
+
+        <ImageButton
+            android:id="@+id/btn_forum"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_forum" />
+
+        <ImageButton
+            android:id="@+id/btn_info"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="250sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_info" />
+
+        <ImageButton
+            android:id="@+id/menu_menu"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="335sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_menu" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:scaleType="centerInside"
+        android:translationZ="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavigationView"
+        app:srcCompat="@drawable/btn_add" />
+
+    <!--    fim bottom menu-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

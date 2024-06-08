@@ -9,20 +9,24 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="30dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_horizontal_verde" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
         android:textAlignment="center"
         android:textColor="@color/secondary"
         android:textSize="16sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/title_info" />
 
     <Button
@@ -30,54 +34,136 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
         android:background="@color/primary"
         android:text="@string/btn_objetivos"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="99dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/btn_doacao_alimentos"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
+        android:layout_marginTop="35dp"
         android:background="@color/primary"
         android:text="@string/btn_pontos_doacaoalimentos"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="188dp" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_objetivos"
+        app:layout_constraintStart_toStartOf="@+id/btn_objetivos"
+        app:layout_constraintTop_toBottomOf="@+id/btn_objetivos" />
 
     <Button
         android:id="@+id/btn_coleta_seletiva"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
+        android:layout_marginTop="35dp"
         android:background="@color/primary"
         android:text="@string/btn_pontos_coletaseletiva"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_doacao_alimentos"
+        app:layout_constraintStart_toStartOf="@+id/btn_doacao_alimentos"
+        app:layout_constraintTop_toBottomOf="@+id/btn_doacao_alimentos" />
 
     <Button
         android:id="@+id/btn_perguntas_frequentes"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
+        android:layout_marginTop="35dp"
         android:background="@color/primary"
         android:text="@string/btn_faq"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="383dp" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_coleta_seletiva"
+        app:layout_constraintStart_toStartOf="@+id/btn_coleta_seletiva"
+        app:layout_constraintTop_toBottomOf="@+id/btn_coleta_seletiva" />
 
     <ImageButton
         android:id="@+id/btn_chatbot"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="@color/transparent"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/icon_chat"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="496dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_perguntas_frequentes"
+        app:srcCompat="@drawable/icon_chat" />
+
+
+    <!--    inicio menu-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="409dp"
+        android:layout_height="70dp"
+        android:background="@color/lightgray"
+        app:backgroundTint="@color/mediumgray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="25sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_inicio" />
+
+        <ImageButton
+            android:id="@+id/btn_forum"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_forum" />
+
+        <ImageButton
+            android:id="@+id/btn_info"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="250sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_info" />
+
+        <ImageButton
+            android:id="@+id/menu_menu"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:layout_marginStart="335sp"
+            android:layout_marginTop="12sp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/icon_menu" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        android:scaleType="centerInside"
+        android:translationZ="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bottomNavigationView"
+        app:srcCompat="@drawable/btn_add" />
+
+    <!--    fim bottom menu-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
