@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="94dp">
 
@@ -35,24 +36,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="137dp"
-        android:layout_marginTop="81dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="137dp"
         android:text="@string/subtitle_forum"
         android:textAlignment="center"
         android:textColor="@color/darkaqua"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
 
     <TextView
         android:id="@+id/forum_title_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="40dp"
         android:text="@string/title_topic1"
         android:textColor="@color/secondary"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -62,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/nome_usuario7"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/text_forum_1"
         app:layout_constraintStart_toEndOf="@+id/text_forum_1" />
 
@@ -71,6 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic1"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/img_comment_1"
         app:layout_constraintStart_toEndOf="@+id/img_comment_1" />
 
@@ -88,6 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_autor"
+        android:textColor="@color/darkgray"
         app:layout_constraintStart_toStartOf="@+id/forum_title_1"
         app:layout_constraintTop_toBottomOf="@+id/forum_title_1" />
 
@@ -95,9 +101,10 @@
         android:id="@+id/forum_title_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/title_topic2"
         android:textColor="@color/secondary"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/forum_title_1"
         app:layout_constraintTop_toBottomOf="@+id/forum_resp_1" />
 
@@ -107,6 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/nome_usuario8"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/text_forum_2"
         app:layout_constraintStart_toEndOf="@+id/text_forum_2" />
 
@@ -116,6 +124,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic2"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/img_comment_2"
         app:layout_constraintStart_toEndOf="@+id/img_comment_2" />
 
@@ -133,6 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_autor"
+        android:textColor="@color/darkgray"
         app:layout_constraintStart_toStartOf="@+id/forum_title_2"
         app:layout_constraintTop_toBottomOf="@+id/forum_title_2" />
 
@@ -140,9 +150,10 @@
         android:id="@+id/forum_title_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/title_topic3"
         android:textColor="@color/darkaqua"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/forum_title_2"
         app:layout_constraintTop_toBottomOf="@+id/forum_resp_2" />
 
@@ -152,6 +163,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
         android:text="@string/text_autor"
+        android:textColor="@color/darkgray"
         app:layout_constraintStart_toStartOf="@+id/forum_title_3"
         app:layout_constraintTop_toBottomOf="@+id/forum_title_3" />
 
@@ -161,6 +173,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic3"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/img_comment_3"
         app:layout_constraintStart_toEndOf="@+id/img_comment_3" />
 
@@ -179,6 +192,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/nome_usuario9"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/text_forum_3"
         app:layout_constraintStart_toEndOf="@+id/text_forum_3" />
 
@@ -186,9 +200,10 @@
         android:id="@+id/forum_title_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:text="@string/title_topic4"
         android:textColor="@color/darkaqua"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/forum_title_3"
         app:layout_constraintTop_toBottomOf="@+id/forum_resp_3" />
 
@@ -198,6 +213,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:text="@string/nome_usuario10"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/text_forum_4"
         app:layout_constraintStart_toEndOf="@+id/text_forum_4" />
 
@@ -207,6 +223,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:text="@string/number_respostas_topic4"
+        android:textColor="@color/darkgray"
         app:layout_constraintBottom_toBottomOf="@+id/img_comment_4"
         app:layout_constraintStart_toEndOf="@+id/img_comment_4" />
 
@@ -224,10 +241,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_autor"
+        android:textColor="@color/darkgray"
         app:layout_constraintStart_toStartOf="@+id/forum_title_4"
         app:layout_constraintTop_toBottomOf="@+id/forum_title_4" />
 
-    <!--    inicio menu-->
 
     <Button
         android:id="@+id/btn_cadastrar"
@@ -244,71 +261,88 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/forum_resp_4" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="409dp"
-        android:layout_height="70dp"
+    <!--    Inicio Menu Bottom-->
+
+    <Button
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
         android:background="@color/lightgray"
-        app:backgroundTint="@color/mediumgray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageButton
-            android:id="@+id/btn_home"
-            android:layout_width="50sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="25sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_inicio" />
-
-        <ImageButton
-            android:id="@+id/btn_forum"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="100sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_forum" />
-
-        <ImageButton
-            android:id="@+id/btn_info"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="250sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_info" />
-
-        <ImageButton
-            android:id="@+id/menu_menu"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="335sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_menu" />
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btn_add"
         android:layout_width="60sp"
         android:layout_height="60sp"
         android:layout_marginBottom="30dp"
         android:background="@color/transparent"
         android:scaleType="centerInside"
         android:translationZ="100dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
+        app:layout_constraintBottom_toBottomOf="@+id/menu_bar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/bottomNavigationView"
+        app:layout_constraintStart_toStartOf="@+id/menu_bar"
         app:srcCompat="@drawable/btn_add" />
 
-    <!--    fim bottom menu-->
+    <ImageButton
+        android:id="@+id/btn_forum"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_forum"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_inicio"
+        app:layout_constraintStart_toEndOf="@+id/btn_inicio"
+        app:srcCompat="@drawable/icon_forum"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_menu"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_info"
+        app:layout_constraintEnd_toEndOf="@+id/menu_bar"
+        app:srcCompat="@drawable/icon_menu"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_inicio"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_inicio"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintStart_toStartOf="@+id/menu_bar"
+        app:layout_constraintTop_toTopOf="@+id/menu_bar"
+        app:srcCompat="@drawable/icon_inicio"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_info"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="35dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_info"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_forum"
+        app:layout_constraintEnd_toStartOf="@+id/btn_menu"
+        app:srcCompat="@drawable/icon_info"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <!--fim Menu bottom-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

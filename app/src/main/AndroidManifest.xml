@@ -21,7 +21,7 @@
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".TelaLogin"
+            android:name=".TelaInicio"
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
@@ -29,11 +29,19 @@
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".TelaPerfil"
+            android:name=".MainActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".MainActivity"
+            android:name=".TelaForum"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaDoacao"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TelaPerfil"
             android:exported="true"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>

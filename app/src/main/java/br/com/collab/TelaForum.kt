@@ -7,20 +7,19 @@ import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
-class TelaDoacao : AppCompatActivity() {
+class TelaForum : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tela_doacaoalimentos)
-
+        setContentView(R.layout.tela_forum)
 
         val buttonMenu = findViewById<ImageButton>(R.id.btn_menu)
 
         buttonMenu.setOnClickListener {
-            PopupMenu(this@TelaDoacao, buttonMenu).apply {
+            PopupMenu(this@TelaForum, buttonMenu).apply {
                 menuInflater.inflate(R.menu.menu_opcoes, this.menu)
                 setOnMenuItemClickListener {
                     //logica
-                    Toast.makeText(this@TelaDoacao, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@TelaForum, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
                     true
                 }
                 show()

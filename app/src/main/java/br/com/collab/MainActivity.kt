@@ -1,22 +1,32 @@
 package br.com.collab
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import br.com.collab.ui.theme.CollabTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tela_login)
+
+
+        val btnLogin: Button = findViewById(R.id.btn_login)
+
+        btnLogin.setOnClickListener {
+            val i = Intent(this, TelaInicio::class.java)
+            startActivity(i)
+        }
+
+
+        val btnCadastro: Button = findViewById(R.id.btn_cadastro)
+
+        btnCadastro.setOnClickListener {
+            val i = Intent(this, TelaCadastro::class.java)
+            startActivity(i)
+        }
+
             }
 
         }

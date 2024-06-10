@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:layout_editor_absoluteX="241dp"
     tools:layout_editor_absoluteY="0dp">
 
@@ -11,9 +12,12 @@
         android:id="@+id/avatar_user_4"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/avatar_mariana"
-        tools:layout_editor_absoluteX="340dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar_user_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/avatar_user_3"
+        app:srcCompat="@drawable/avatar_mariana" />
 
     <TextView
         android:id="@+id/username_user3"
@@ -21,9 +25,11 @@
         android:layout_height="wrap_content"
         android:text="@string/nome_usuario3"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="134dp" />
+        app:layout_constraintEnd_toEndOf="@+id/avatar_user_3"
+        app:layout_constraintStart_toStartOf="@+id/avatar_user_3"
+        app:layout_constraintTop_toTopOf="@+id/username_user2" />
 
     <TextView
         android:id="@+id/username_user2"
@@ -31,9 +37,11 @@
         android:layout_height="wrap_content"
         android:text="@string/nome_usuario2"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="134dp" />
+        app:layout_constraintEnd_toEndOf="@+id/avatar_user_2"
+        app:layout_constraintStart_toStartOf="@+id/avatar_user_2"
+        app:layout_constraintTop_toTopOf="@+id/username_user1" />
 
     <TextView
         android:id="@+id/username_user4"
@@ -41,17 +49,20 @@
         android:layout_height="wrap_content"
         android:text="@string/nome_usuario4"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="134dp" />
+        app:layout_constraintEnd_toEndOf="@+id/avatar_user_4"
+        app:layout_constraintStart_toStartOf="@+id/avatar_user_4"
+        app:layout_constraintTop_toTopOf="@+id/username_user3" />
 
     <ImageView
         android:id="@+id/avatar_user_2"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/avatar_henriquesilva"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar_user_1"
+        app:layout_constraintStart_toEndOf="@+id/avatar_user_1"
+        app:srcCompat="@drawable/avatar_henriquesilva" />
 
     <TextView
         android:id="@+id/username_user1"
@@ -59,260 +70,284 @@
         android:layout_height="wrap_content"
         android:text="@string/nome_usuario1"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="134dp" />
+        app:layout_constraintEnd_toEndOf="@+id/avatar_user_1"
+        app:layout_constraintStart_toStartOf="@+id/avatar_user_1"
+        app:layout_constraintTop_toTopOf="@+id/text_seu_status" />
 
     <ImageView
         android:id="@+id/avatar_main_user"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/user_avatar"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_avatar" />
 
     <TextView
         android:id="@+id/text_seu_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="@string/home_seustatus"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="134dp" />
+        app:layout_constraintEnd_toEndOf="@+id/avatar_main_user"
+        app:layout_constraintStart_toStartOf="@+id/avatar_main_user"
+        app:layout_constraintTop_toBottomOf="@+id/avatar_main_user" />
 
     <ImageView
         android:id="@+id/avatar_user_1"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/avatar_natura"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar_main_user"
+        app:layout_constraintStart_toEndOf="@+id/avatar_main_user"
+        app:srcCompat="@drawable/avatar_natura" />
 
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/post_avatar_user_1"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/user_avatar"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="176dp" />
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_seu_status"
+        app:srcCompat="@drawable/user_avatar" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/post_user_nome_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/user_nomecompleto"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="176dp" />
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/post_avatar_user_1"
+        app:layout_constraintTop_toTopOf="@+id/post_avatar_user_1" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/post_username_user_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/user_username"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="203dp" />
+        android:textColor="@color/darkgray"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/post_user_nome_1"
+        app:layout_constraintTop_toBottomOf="@+id/post_user_nome_1" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/post_user_1"
         android:layout_width="359dp"
         android:layout_height="57dp"
+        android:layout_marginTop="10dp"
         android:text="@string/user_post"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="238dp" />
+        android:textColor="@color/darkgray"
+        app:layout_constraintStart_toStartOf="@+id/post_avatar_user_1"
+        app:layout_constraintTop_toBottomOf="@+id/post_avatar_user_1" />
 
     <ImageView
-        android:id="@+id/imageView22"
+        android:id="@+id/post_img_user_1"
         android:layout_width="350dp"
         android:layout_height="212dp"
-        app:srcCompat="@drawable/post_user1"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintEnd_toEndOf="@+id/post_user_1"
+        app:layout_constraintStart_toStartOf="@+id/post_user_1"
+        app:layout_constraintTop_toBottomOf="@+id/post_user_1"
+        app:srcCompat="@drawable/post_user1" />
+
 
     <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_like"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="519dp" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="519dp" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_share"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="519dp" />
+        android:id="@+id/post_img_user_2"
+        android:layout_width="350dp"
+        android:layout_height="212dp"
+        app:layout_constraintEnd_toEndOf="@+id/post_user_2"
+        app:layout_constraintStart_toStartOf="@+id/post_user_2"
+        app:layout_constraintTop_toBottomOf="@+id/post_user_2"
+        app:srcCompat="@drawable/post_user2" />
 
     <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_compartilhar"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="520dp" />
+        android:id="@+id/post_user_2"
+        android:layout_width="366dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/post_usuario5"
+        android:textColor="@color/darkgray"
+        app:layout_constraintStart_toStartOf="@+id/post_avatar_user_2"
+        app:layout_constraintTop_toBottomOf="@+id/post_avatar_user_2" />
+
+    <ImageView
+        android:id="@+id/btn_like"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/post_img_user_1"
+        app:layout_constraintTop_toBottomOf="@+id/post_img_user_1"
+        app:srcCompat="@drawable/icon_like" />
+
+    <ImageView
+        android:id="@+id/btn_coment"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_like"
+        app:layout_constraintStart_toEndOf="@+id/btn_like"
+        app:srcCompat="@drawable/icon_comentar" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/post_user_nome_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:text="@string/nome_usuario5"
         android:textColor="@color/secondary"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="567dp" />
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/post_avatar_user_2"
+        app:layout_constraintTop_toTopOf="@+id/post_avatar_user_2" />
 
     <ImageView
-        android:id="@+id/imageView21"
+        android:id="@+id/post_avatar_user_2"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/gov_avatar"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="567dp" />
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_like"
+        app:srcCompat="@drawable/gov_avatar" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/post_username_user_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/username_usuario5"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="594dp" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_like"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="519dp" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_comentar"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="519dp" />
-
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/icon_share"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="519dp" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_compartilhar"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="520dp" />
+        android:textColor="@color/darkgray"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/post_user_nome_2"
+        app:layout_constraintTop_toBottomOf="@+id/post_user_nome_2" />
 
     <Button
         android:id="@+id/btn_compartilhar"
         android:layout_width="wrap_content"
-        android:layout_height="40sp"
-        android:backgroundTint="@color/transparent"
-        android:drawableStart="@drawable/icon_share"
-        android:paddingLeft="20sp"
+        android:layout_height="20sp"
+        android:layout_marginStart="20dp"
+        android:background="@color/transparent"
+        android:drawableStart="@drawable/icon_share_mini"
+        android:drawablePadding="8sp"
         android:text="@string/btn_compartilhar"
         android:textAllCaps="false"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="519dp" />
+        android:textColor="@color/darkgray"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_coment"
+        app:layout_constraintStart_toEndOf="@+id/btn_coment" />
 
     <ImageView
         android:id="@+id/avatar_user_3"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/avatar_bradesco"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar_user_2"
+        app:layout_constraintStart_toEndOf="@+id/avatar_user_2"
+        app:srcCompat="@drawable/avatar_bradesco" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="100sp"
         android:layout_height="30sp"
-        app:srcCompat="@drawable/logo_horizontal_verde"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="155dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_horizontal_verde" />
 
-    <!--    inicio menu-->
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="409dp"
-        android:layout_height="70dp"
+    <!--    Inicio Menu Bottom-->
+
+    <Button
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
         android:background="@color/lightgray"
-        app:backgroundTint="@color/mediumgray"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="1dp">
-
-        <ImageButton
-            android:id="@+id/btn_home"
-            android:layout_width="50sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="25sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_inicio" />
-
-        <ImageButton
-            android:id="@+id/btn_forum"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="100sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_forum" />
-
-        <ImageButton
-            android:id="@+id/btn_info"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="250sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_info" />
-
-        <ImageButton
-            android:id="@+id/menu_menu"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="335sp"
-            android:layout_marginTop="12sp"
-            android:background="@color/transparent"
-            android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_menu" />
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btn_add"
         android:layout_width="60sp"
         android:layout_height="60sp"
         android:layout_marginBottom="30dp"
         android:background="@color/transparent"
         android:scaleType="centerInside"
         android:translationZ="100dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
-        app:srcCompat="@drawable/btn_add"
-        tools:layout_editor_absoluteX="165dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/menu_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/menu_bar"
+        app:srcCompat="@drawable/btn_add" />
 
-    <!--    fim bottom menu-->
+    <ImageButton
+        android:id="@+id/btn_forum"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_forum"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_inicio"
+        app:layout_constraintStart_toEndOf="@+id/btn_inicio"
+        app:srcCompat="@drawable/icon_forum"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_menu"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_info"
+        app:layout_constraintEnd_toEndOf="@+id/menu_bar"
+        app:srcCompat="@drawable/icon_menu"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_inicio"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_inicio"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintStart_toStartOf="@+id/menu_bar"
+        app:layout_constraintTop_toTopOf="@+id/menu_bar"
+        app:srcCompat="@drawable/icon_inicio"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_info"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="35dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/menu_bottom_info"
+        android:scaleType="centerInside"
+        android:translationZ="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_forum"
+        app:layout_constraintEnd_toStartOf="@+id/btn_menu"
+        app:srcCompat="@drawable/icon_info"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <!--fim Menu bottom-->
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

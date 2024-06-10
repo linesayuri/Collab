@@ -78,5 +78,19 @@ Desenvolvimento Sustentável</string>
     <string name="number_respostas_topic4">157 Respostas</string>
     <string name="number_respostas_topic5">78 Respostas</string>
     <string name="btn_criartopico" tools:ignore="DuplicateDefinition">Criar um tópico</string>
+    <string name="menu_compartilhar_copiarlink">Copiar Link</string>
+    <string name="menu_compartilhar_whatsapp">Whatsapp</string>
+    <string name="menu_compartilhar_instagram">Instagram</string>
+    <string name="menu_compartilhar_x">X</string>
+    <string name="menu_compartilhar_linkedin">LinkedIn</string>
+    <string name="menu_bottom_inicio">Início</string>
+    <string name="menu_bottom_forum">Fórum</string>
+    <string name="menu_bottom_info">Informações</string>
+    <string name="menu_bottom_menu">Menu</string>
+    <string name="menu_bottom_add">Mais</string>
+    <string name="menu_opcoes_perfil">Perfil</string>
+    <string name="menu_opcoes_config">Configurações</string>
+    <string name="menu_opcoes_sobre">Sobre</string>
+
 
 </resources>

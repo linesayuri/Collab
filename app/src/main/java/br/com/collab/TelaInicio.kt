@@ -1,26 +1,42 @@
 package br.com.collab
 
-import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 
-class TelaDoacao : AppCompatActivity() {
+class TelaInicio : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tela_doacaoalimentos)
+        setContentView(R.layout.tela_inicio)
+
+
+        val buttonCompartilhar = findViewById<Button>(R.id.btn_compartilhar)
+
+        buttonCompartilhar.setOnClickListener {
+            PopupMenu(this@TelaInicio, buttonCompartilhar).apply {
+                menuInflater.inflate(R.menu.menu_compartilhar, this.menu)
+                setOnMenuItemClickListener {
+                    //logica
+                    Toast.makeText(this@TelaInicio, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
+                    true
+                }
+                show()
+            }
+        }
 
 
         val buttonMenu = findViewById<ImageButton>(R.id.btn_menu)
 
         buttonMenu.setOnClickListener {
-            PopupMenu(this@TelaDoacao, buttonMenu).apply {
+            PopupMenu(this@TelaInicio, buttonMenu).apply {
                 menuInflater.inflate(R.menu.menu_opcoes, this.menu)
                 setOnMenuItemClickListener {
                     //logica
-                    Toast.makeText(this@TelaDoacao, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@TelaInicio, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
                     true
                 }
                 show()
@@ -48,5 +64,9 @@ class TelaDoacao : AppCompatActivity() {
             val i = Intent(this, TelaInfo::class.java)
             startActivity(i)
         }
+
+
+
+
+        }
     }
-}

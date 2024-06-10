@@ -14,7 +14,7 @@ class TelaCadastro : AppCompatActivity() {
         val btnLoginGoogle: Button = findViewById(R.id.btn_login_google)
 
         btnLoginGoogle.setOnClickListener {
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, TelaInicio::class.java)
             startActivity(i)
         }
 
@@ -22,7 +22,7 @@ class TelaCadastro : AppCompatActivity() {
         val btnCadastrar: Button = findViewById(R.id.btn_cadastrar)
 
         btnCadastrar.setOnClickListener {
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, TelaInicio::class.java)
             startActivity(i)
         }
 
