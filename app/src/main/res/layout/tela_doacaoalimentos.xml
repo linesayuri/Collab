@@ -68,7 +68,7 @@
         android:layout_width="300sp"
         android:layout_height="300sp"
         android:layout_marginStart="55dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="56dp"
         android:scaleType="center"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,7 +141,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/icon_local" />
@@ -169,7 +169,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/menu_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/menu_bar"
-        app:srcCompat="@drawable/btn_add" />
+        app:srcCompat="@drawable/btn_camera" />
 
     <ImageButton
         android:id="@+id/btn_forum"

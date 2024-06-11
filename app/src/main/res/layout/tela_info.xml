@@ -36,7 +36,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="70dp"
         android:layout_marginEnd="31dp"
         android:background="@color/primary"
         android:text="@string/btn_objetivos"
@@ -119,7 +119,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/menu_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/menu_bar"
-        app:srcCompat="@drawable/btn_add" />
+        app:srcCompat="@drawable/btn_camera" />
 
     <ImageButton
         android:id="@+id/btn_forum"

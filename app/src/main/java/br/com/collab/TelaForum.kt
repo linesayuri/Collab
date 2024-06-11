@@ -27,6 +27,7 @@ class TelaForum : AppCompatActivity() {
         }
 
 
+
         val btnInicio: ImageButton = findViewById(R.id.btn_inicio)
 
         btnInicio.setOnClickListener {

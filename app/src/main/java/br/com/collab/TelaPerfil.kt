@@ -7,7 +7,9 @@ import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
+
 class TelaPerfil : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.tela_perfil)
@@ -20,7 +22,8 @@ class TelaPerfil : AppCompatActivity() {
                 menuInflater.inflate(R.menu.menu_opcoes, this.menu)
                 setOnMenuItemClickListener {
                     //logica
-                    Toast.makeText(this@TelaPerfil, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@TelaPerfil, "${it.itemId}, ${it.title}", Toast.LENGTH_SHORT)
+                        .show()
                     true
                 }
                 show()

@@ -283,7 +283,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/menu_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/menu_bar"
-        app:srcCompat="@drawable/btn_add" />
+        app:srcCompat="@drawable/btn_camera" />
 
     <ImageButton
         android:id="@+id/btn_forum"

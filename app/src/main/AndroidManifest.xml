@@ -29,7 +29,7 @@
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".MainActivity"
+            android:name=".TelaPerfil"
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
@@ -41,7 +41,7 @@
             android:exported="false"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".TelaPerfil"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
